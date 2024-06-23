@@ -1,0 +1,9 @@
+#!name=YouTube去广告
+#!desc=仅用于视频广告
+[Rule]
+DOMAIN-SUFFIX,googlevideo.com,Proxy
+DOMAIN-KEYWORD,-youtube,Proxy
+DOMAIN-SUFFIX,googlesyndication.com,DIRECT
+DOMAIN-SUFFIX,doubleclick.net,DIRECT
+DOMAIN-SUFFIX,gvt1.com,DIRECT
+FINAL,DIRECT
